@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reem Hisham | Portfolio</title>
+  <link rel="icon" type="image/png" href="images/RH.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header id="header">
+    <div class="container header-box">
+      <a href="#home" class="logo">
+        <img src="images/RH.png" alt="Reem Hisham Logo">
+      </a>
+      <nav id="nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="header-tools">
+        <i class="fa-solid fa-moon" id="themeToggle" title="Change theme"></i>
+        <button id="menu" type="button" aria-label="Open menu" aria-expanded="false">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+  <section id="home" class="hero">
+    <div class="container hero-box">
+      <div class="hero-text">
+        <span class="badge"><i class="fa-solid fa-circle"></i> Available for new projects</span>
+        <h1>Engineering web apps that <span id="counter"></span></h1>
+        <p>Hi, I'm Reem, a Full-Stack Web Developer. I turn ideas into fast, responsive, and high-performance digital
+          experiences using clean code and modern frameworks.</p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-main explore">Explore My Work <i class="fa-solid fa-arrow-right"></i></a>
+          <a href="cv.pdf" download class="btn btn-outline download"><i class="fa-solid fa-download"></i> Download
+            CV</a>
+        </div>
+        <div class="hero-social">
+          <a href="https://github.com/ReemHisham55/" target="_blank" aria-label="GitHub"><i
+              class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/reem-hisham-183437289/" target="_blank" aria-label="LinkedIn"><i
+              class="fa-brands fa-linkedin-in"></i></a>
+          <a href="mailto:reemhishem@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="code-card">
+          <div class="code-top"><span></span><span></span><span></span><em>developer.js</em></div>
+          <pre><code><b class="k1">const</b> <b class="k2">developer</b> = {
+  <b class="k3">name</b>: <b class="k4">"Reem Hisham"</b>,
+  <b class="k3">role</b>: <b class="k4">"Full-Stack Web Developer"</b>,
+  <b class="k3">stack</b>: [<b class="k4">"HTML"</b>, <b class="k4">"CSS"</b>, <b class="k4">"JS"</b>],
+  <b class="k3">learning</b>: <b class="k4">"always"</b>,
+  <b class="k3">hireable</b>: <b class="k5">true</b>
+};</code></pre>
+        </div>
+        <div class="float-card fc1"><i class="fa-brands fa-html5" style="color:#e44d26"></i> HTML5</div>
+        <div class="float-card fc3"><i class="fa-brands fa-css3-alt" style="color:#2d8cf0"></i> CSS3</div>
+        <div class="float-card fc2"><i class="fa-brands fa-js" style="color:#f7df1e"></i> JavaScript</div>
+      </div>
+    </div>
+  </section>
+  <section id="about" class="section light-bg">
+    <div class="container">
+      <div class="section-title reveal">
+        <h2>About me</h2>
+        <p>Who I am and how I bring web designs to life.</p>
+      </div>
+      <div class="about-box">
+        <div class="about-text reveal">
+          <div class="about-img-box">
+            <img src="images/reem.jpg" alt="Reem Hisham" class="my-avatar">
+          </div>
+          <p>I'm a Front-End Developer who enjoys bringing digital ideas to life. I specialize in crafting clean,
+            responsive, and interactive user interfaces from scratch using HTML, CSS, and modern JavaScript.</p>
+          <p>I care deeply about clean code, fast loading speeds, pixel-perfect design, and creating an intuitive user
+            experience on every device.</p>
+          <ul class="check-list">
+            <li><i class="fa-solid fa-circle-check"></i> Clean, modern, and well-structured code</li>
+            <li><i class="fa-solid fa-circle-check"></i> Fully responsive across mobile, tablet, and desktop</li>
+            <li><i class="fa-solid fa-circle-check"></i> Interactive & dynamic UI with JavaScript</li>
+          </ul>
+        </div>
+        <div class="about-side">
+          <div class="stats reveal">
+            <div><strong class="count" data-target="1" data-suffix="+">1+</strong><span>Years of coding</span></div>
+            <div><strong class="count" data-target="10" data-suffix="+">10+</strong><span>Projects built</span></div>
+            <div><strong class="count" data-target="100" data-suffix="%">100%</strong><span>Commitment to quality</span>
+            </div>
+          </div>
+          <div class="timeline reveal">
+            <h3>My Journey</h3>
+            <ul>
+              <li><small>2026 - Present</small>
+                <h4>Front-End Web Developer</h4>
+                <p>Focused on building clean, responsive, and modern web applications using HTML, CSS, and JavaScript.
+                </p>
+              </li>
+              <li><small>2023 - Present</small>
+                <h4>Information Systems Student</h4>
+                <p>Studying software development fundamentals, web technologies, and database management.</p>
+              </li>
+              <li><small>2020 - 2023</small>
+                <h4>Technical High School</h4>
+                <p>Discovered my passion for coding, built core problem-solving skills, and explored programming basics.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <div class="container">
+      <div class="section-title reveal">
+        <h2>Skills</h2>
+        <p>The tools I use to build your website.</p>
+      </div>
+      <div class="skills-grid">
+        <div class="skill reveal"><i class="fa-brands fa-html5" style="color:#e44d26"></i>
+          <h3>HTML5</h3>
+          <p>Semantic structure</p>
+        </div>
+        <div class="skill reveal"><i class="fa-brands fa-css3-alt" style="color:#2d8cf0"></i>
+          <h3>CSS3</h3>
+          <p>Flexbox and Grid</p>
+        </div>
+        <div class="skill reveal"><i class="fa-brands fa-js" style="color:#f0b400"></i>
+          <h3>JavaScript</h3>
+          <p>Interactive pages</p>
+        </div>
+        <div class="skill reveal"><i class="fa-brands fa-github" style="color:#6e7681"></i>
+          <h3>GitHub</h3>
+          <p>Team work</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section light-bg">
+    <div class="container">
+      <div class="section-title reveal">
+        <h2>Featured Projects</h2>
+        <p>A selection of my recent full-stack and front-end work.</p>
+      </div>
+      <div class="projects-grid">
+        <div class="project reveal project-card-with-img">
+          <div class="project-img-container">
+            <img src="images/nexify.png" alt="Nexify SaaS Landing Page" class="project-full-img">
+          </div>
+          <div class="project-info">
+            <h3>Nexify - SaaS Landing Page</h3>
+            <p>A modern, high-converting landing page designed for a technology SaaS platform, featuring animated
+              statistics, testimonials, and a sleek dark theme.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive</span></div>
+            <div class="project-links">
+              <a href="https://nexify-silk-gamma.vercel.app/" target="_blank"><i
+                  class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+              <a href="https://github.com/ReemHisham55/Nexify" target="_blank"><i class="fa-brands fa-github"></i>
+                GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="project reveal project-card-with-img">
+          <div class="project-img-container">
+            <img src="images/Stick.png" alt="Stick Meat System" class="project-full-img">
+          </div>
+          <div class="project-info">
+            <h3>Stick Meat System</h3>
+            <p>An interactive management web interface designed to handle inventory, orders, and operations with dynamic
+              layout structuring and custom styling.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <div class="project-links">
+              <a href="https://stick-meat-manager.vercel.app" target="_blank"><i
+                  class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+              <a href="https://github.com/ReemHisham55/Stick-Meat-Manager" target="_blank"><i
+                  class="fa-brands fa-github"></i> GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="project reveal project-card-with-img">
+          <div class="project-img-container">
+            <img src="images/SkillUp.png" alt="SkillUp Educational Platform" class="project-full-img">
+          </div>
+          <div class="project-info">
+            <h3>SkillUp Platform</h3>
+            <p>A multi-page educational web platform featuring responsive course layouts, modern navigation components,
+              and user-centric UI design.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <div class="project-links">
+              <a href="https://skill-up-seven-rosy.vercel.app" target="_blank"><i
+                  class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+              <a href="https://github.com/ReemHisham55/Skill-Up" target="_blank"><i class="fa-brands fa-github"></i>
+                GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="project reveal project-card-with-img">
+          <div class="project-img-container">
+            <img src="images/Portfolio.png" alt="Nexus Team Portfolio" class="project-full-img">
+          </div>
+          <div class="project-info">
+            <h3>Nexus Team Portfolio</h3>
+            <p>A collaborative team portfolio showcasing responsive design, interactive JavaScript, and clean CSS
+              architecture across multiple sections.</p>
+            <div class="tags"><span>Teamwork</span><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <div class="project-links">
+              <a href="https://portofilo-indol.vercel.app" target="_blank"><i
+                  class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+              <a href="https://github.com/ReemHisham55/Nexus" target="_blank"><i class="fa-brands fa-github"></i>
+                GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="project reveal project-card-with-img">
+          <div class="project-img-container">
+            <img src="images/pcookie.png" alt="Pcookie Web Platform" class="project-full-img">
+          </div>
+          <div class="project-info">
+            <h3>Pcookie Web Platform</h3>
+            <p>A responsive web platform featuring clean layouts, modern navigation components, and user-centric UI
+              design built as a team task.</p>
+            <div class="tags"><span>Teamwork</span><span>HTML</span><span>CSS</span></div>
+            <div class="project-links">
+              <a href="https://pcookie-e9z4.vercel.app/" target="_blank"><i
+                  class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+              <a href="https://github.com/ReemHisham55/pcookie" target="_blank"><i class="fa-brands fa-github"></i>
+                GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container contact-box">
+      <div class="contact-text reveal">
+        <h2>Contact Information</h2>
+        <p>I'm open to discussing web development projects, collaboration, and learning opportunities.</p>
+        <ul class="contact-list">
+          <li>
+            <i class="fa-solid fa-envelope"></i>
+            <div>
+              <span>Email</span>
+              <a href="mailto:reemhishem@gmail.com">reemhishem@gmail.com</a>
+            </div>
+          </li>
+          <li>
+            <i class="fa-brands fa-github"></i>
+            <div>
+              <span>GitHub</span>
+              <a href="https://github.com/ReemHisham55/" target="_blank">ReemHisham55</a>
+            </div>
+          </li>
+          <li>
+            <i class="fa-brands fa-linkedin-in"></i>
+            <div>
+              <span>LinkedIn</span>
+              <a href="https://www.linkedin.com/in/reem-hisham-183437289/" target="_blank">Reem Hisham</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <form class="contact-form reveal" onsubmit="Validationform(event)" novalidate>
+        <label>Full name</label>
+        <input type="text" name="Name" class="inputs" placeholder="First and last name">
+        <p class="messages"></p>
+        <label>Email</label>
+        <input type="email" name="Email" class="inputs" placeholder="you@example.com">
+        <p class="messages"></p>
+        <label>Phone / WhatsApp</label>
+        <input type="tel" name="Phone" class="inputs" placeholder="+20 1XXXXXXXXX" required>
+        <p class="messages"></p>
+        <label>Message</label>
+        <textarea name="Message" class="inputs" rows="5" placeholder="Tell me about your project..."></textarea>
+        <p class="messages"></p>
+        <button type="submit" class="btn btn-main full">Send message</button>
+        <p id="success"></p>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-box">
+      <p>&copy; 2026 Reem Hisham. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <i class="fa-solid fa-arrow-up" id="scroll" title="Back to top"></i>
+  <script src="script.js"></script>
+</body>
+
+</html>
